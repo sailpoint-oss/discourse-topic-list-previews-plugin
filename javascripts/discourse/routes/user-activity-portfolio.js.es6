@@ -6,8 +6,8 @@ export default UserTopicListRoute.extend({
 
   model() {
 
-    let filter_type = settings.topic_list_blog_filter_type;
-    const filter_parameter = settings.topic_list_blog_filter_parameter;
+    let filter_type = settings.topic_list_portfolio_filter_type;
+    const filter_parameter = settings.topic_list_portfolio_filter_parameter;
 
     if (filter_type == 'tag') {
       filter_type = 'tags'
