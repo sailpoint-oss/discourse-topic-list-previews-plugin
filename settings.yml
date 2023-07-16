@@ -1,8 +1,8 @@
 topic_list_tiles_topic_lists:
   type: list
-  default: latest|new|unread|top|tag|activity-topics|activity-blog|latest-mobile|new-mobile|unread-mobile|top-mobile|tag-mobile|activity-topics-mobile|activity-blog-mobile
+  default: latest|new|unread|top|tag|activity-topics|activity-portfolio|latest-mobile|new-mobile|unread-mobile|top-mobile|tag-mobile|activity-topics-mobile|activity-portfolio-mobile
   description:
-    en: "The lists that will be styled with tiles format.  Can be one of latest|new|unread|top|tag|suggested|activity-topics|activity-blog|latest-mobile|new-mobile|unread-mobile|top-mobile|tag-mobile|suggested-mobile|activity-topics-mobile|activity-blog-mobile"
+    en: "The lists that will be styled with tiles format.  Can be one of latest|new|unread|top|tag|suggested|activity-topics|activity-portfolio|latest-mobile|new-mobile|unread-mobile|top-mobile|tag-mobile|suggested-mobile|activity-topics-mobile|activity-portfolio-mobile"
 topic_list_tiles_categories:
   type: list
   list_type: category
@@ -17,9 +17,9 @@ topic_list_tiles_tags:
     en: "The tags that will be styled with tiles format."
 topic_list_thumbnails_topic_lists:
   type: list
-  default: latest|new|unread|top|tag|suggested|agenda|activity-topics|activity-blog|latest-mobile|new-mobile|unread-mobile|top-mobile|tag-mobile|suggested-mobile|agenda-mobile|activity-topics-mobile|activity-blog-mobile
+  default: latest|new|unread|top|tag|suggested|agenda|activity-topics|activity-portfolio|latest-mobile|new-mobile|unread-mobile|top-mobile|tag-mobile|suggested-mobile|agenda-mobile|activity-topics-mobile|activity-portfolio-mobile
   description:
-    en: "The lists that will include thumbnails.  Can be one of latest|new|unread|top|tag|suggested|agenda|activity-topics|activity-blog|latest-mobile|new-mobile|unread-mobile|top-mobile|tag-mobile|agenda-mobile|activity-topics-mobile|activity-blog-mobile"
+    en: "The lists that will include thumbnails.  Can be one of latest|new|unread|top|tag|suggested|agenda|activity-topics|activity-portfolio|latest-mobile|new-mobile|unread-mobile|top-mobile|tag-mobile|agenda-mobile|activity-topics-mobile|activity-portfolio-mobile"
 topic_list_thumbnails_categories:
   type: list
   list_type: category
@@ -34,9 +34,9 @@ topic_list_thumbnails_tags:
     en: "The categories that will include thumbnails."
 topic_list_excerpts_topic_lists:
   type: list
-  default: latest|new|unread|top|tag|suggested|agenda|activity-topics|activity-blog|latest-mobile|new-mobile|unread-mobile|top-mobile|tag-mobile|agenda-mobile|activity-topics-mobile|activity-blog-mobile
+  default: latest|new|unread|top|tag|suggested|agenda|activity-topics|activity-portfolio|latest-mobile|new-mobile|unread-mobile|top-mobile|tag-mobile|agenda-mobile|activity-topics-mobile|activity-portfolio-mobile
   description:
-    en:  "The lists that will include excerpts.  Can be one of latest|new|unread|top|tag|suggested|agenda|activity-topics|activity-blog|latest-mobile|new-mobile|unread-mobile|top-mobile|tag-mobile|agenda-mobile|activity-topics-mobile|activity-blog-mobile"
+    en:  "The lists that will include excerpts.  Can be one of latest|new|unread|top|tag|suggested|agenda|activity-topics|activity-portfolio|latest-mobile|new-mobile|unread-mobile|top-mobile|tag-mobile|agenda-mobile|activity-topics-mobile|activity-portfolio-mobile"
 topic_list_excerpts_categories:
   type: list
   list_type: category
@@ -51,9 +51,9 @@ topic_list_excerpts_tags:
     en: "The tags that will include excerpts."
 topic_list_actions_topic_lists:
   type: list
-  default: latest|new|unread|top|tag|suggested|agenda|activity-topics|activity-blog|latest-mobile|new-mobile|unread-mobile|top-mobile|tag-mobile|agenda-mobile|activity-topics-mobile|activity-blog-mobile
+  default: latest|new|unread|top|tag|suggested|agenda|activity-topics|activity-portfolio|latest-mobile|new-mobile|unread-mobile|top-mobile|tag-mobile|agenda-mobile|activity-topics-mobile|activity-portfolio-mobile
   description:
-    en: "The lists that will include actions.  Can be one of latest|new|unread|top|tag|suggested|agenda|activity-topics|activity-blog|latest-mobile|new-mobile|unread-mobile|top-mobile|tag-mobile|agenda-mobile|activity-topics-mobile|activity-blog-mobile"
+    en: "The lists that will include actions.  Can be one of latest|new|unread|top|tag|suggested|agenda|activity-topics|activity-portfolio|latest-mobile|new-mobile|unread-mobile|top-mobile|tag-mobile|agenda-mobile|activity-topics-mobile|activity-portfolio-mobile"
 topic_list_actions_categories:
   type: list
   list_type: category
@@ -86,20 +86,20 @@ topic_list_tiles_larger_featured_tiles:
   type: bool
   description:
     en: "Make the tiles with featured tags larger"
-topic_list_blog:
+topic_list_portfolio:
   default: true
   type: bool
   description:
-    en: "Enable additional User Activity view for User blog"
-topic_list_blog_filter_type:
+    en: "Enable additional User Activity view for User Portfolio"
+topic_list_portfolio_filter_type:
   default: 'tag'
   type: 'enum'
   description:
-    en: "Which type of filter should be used to limit Activity blog Topics"
+    en: "Which type of filter should be used to limit Activity Portfolio Topics"
   choices:
     - tag
     - category
-topic_list_blog_filter_parameter:
+topic_list_portfolio_filter_parameter:
   default: ''
   type: string
   description:

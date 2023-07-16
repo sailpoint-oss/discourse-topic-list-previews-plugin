@@ -1,6 +1,6 @@
 en:
   tlp:
-    user_activity_blog_title: "Blog"
+    user_activity_portfolio_title: "Portfolio"
     thumbnail_selector:
       select_preview_button: "Select thumbnail"
       title: "Select the desired preview thumbnail"

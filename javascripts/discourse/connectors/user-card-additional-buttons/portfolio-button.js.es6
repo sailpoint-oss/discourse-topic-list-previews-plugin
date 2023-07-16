@@ -1,5 +1,5 @@
 export default {
   setupComponent(attrs, component) {
-    component.set('blogEnabled', settings.topic_list_blog);
+    component.set('portfolioEnabled', settings.topic_list_portfolio);
   }
 }

@@ -50,7 +50,7 @@ export default Service.extend({
         checkList = actionsTopicLists;
     }
 
-    if (currentTopicListRoute == 'userActivity.blog') currentTopicListRoute = 'activity-blog';
+    if (currentTopicListRoute == 'userActivity.portfolio') currentTopicListRoute = 'activity-portfolio';
     if (currentTopicListRoute == 'userActivity.topics') currentTopicListRoute = 'activity-topics';
     if (currentTopicListRoute.indexOf("topic") > -1) currentTopicListRoute = 'suggested';
 
